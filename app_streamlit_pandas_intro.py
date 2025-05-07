@@ -41,8 +41,7 @@ datos = {
 df = pd.DataFrame(datos)
 st.dataframe(df)
 st.text(f"Dimensión: {df.shape}")
-st.text(f"Tipos de datos:
-{df.dtypes}")
+st.text(f"Tipos de datos:\n{df.dtypes}")
 
 # --- DataFrame con NaN ---
 st.header("3️⃣ Introducción a NaN con NumPy + Pandas")
